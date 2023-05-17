@@ -1,0 +1,1300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font Awasome CSS -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="PROJECT/trekking.css"> -->
+    <title>Trekking india</title>
+    <link rel="stylesheet" href="trek.css">
+
+
+</head>
+
+<body>
+
+    <div class="sticky">
+        <div class="one">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <img src="media/images/trekkinglogo.jpg" alt="trekkinglogo" width="50px" height="50px"
+                    class="navbar-logo">
+                <a class="navbar-brand" href="index.html">Trekking india</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin: -12px;">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <!-- madal attachment -->
+                            <a class="nav-link" href="" data-target="#exampleModal" data-toggle="modal">About Us<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+
+                        <!-- modal start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="exampleModalLabel">About Us</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Our founders, started Trekking India with one simple belief — Everyone Must
+                                        Trek. They wanted to do
+                                        this by bringing out information about treks, and by
+                                        setting the right spirit of trekking in India.
+
+                                        What began as one humble blogpost about the Roopkund trek has now blossomed into
+                                        India’s largest
+                                        database of trek related information.
+
+                                    </div>
+                                    <!-- <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- modal end -->
+
+                        <li class="nav-item active d-none d-md-block d-lg-block d-xl-block">
+
+                            <a class="nav-link" href="trekkcard.html">Events<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <!-- dropdown-categories for sm and xs -->
+                        <li class="nav-item dropdown d-block d-md-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownmobile" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown light">
+                                <a class="dropdown-item" href="trekkcard.html">All</a>
+                                <a class="dropdown-item" href="trekkcard.html">Trekking </a>
+                                <a class="dropdown-item" href="trekkcard.html">Camping</a>
+                                <a class="dropdown-item" href="trekkcard.html">Road Trip</a>
+                            </div>
+                        </li>
+
+
+
+
+
+                        <li class="nav-item active d-none d-md-block d-lg-block d-xl-block">
+                            <a class="nav-link" href="#">What's <span class="badge badge-success">New</span></a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline d-none d-md-block d-lg-block d-xl-block">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <div class="loginbtn">
+                        <a href="login.html"><button type="button" class="btn btn-danger">Login</button></a>
+                        <!-- <ul>
+                   
+                    <a href="login.html" tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover"
+                      data-trigger="focus" title="Dismissible popover"
+                      data-content="And here's some amazing content. It's very engaging. Right?">
+                      Login</a>
+                  </ul> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="month">
+            
+            <h1>Best Adventures to do in This Month</h1>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">  + Create Event</button>
+                <!-- <button type="button" class="adddtn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+                    + Create Event
+
+                </button> -->
+   
+            <!-- Modal -->
+            <div class="modal fade create-event-modal" id="staticBackdrop" data-backdrop="static" tabindex="-1"
+                role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <h3 class="modal-title createheader" id="staticBackdropLabel" style="">Create your own
+                                Events</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+
+                        </div>
+                        <div class="modal-contenteventform">
+
+
+                            <h4 class="eventhead">I am interested for the following events</h4>
+
+
+
+                            <div class="row">
+                                <div class="col-4 login-username">
+                                    <p class="create-dropdown">Select Event</p>
+                                    <p class="User-name">User Name</p>
+                                    <p class="reg-address">Address</p>
+                                    <p class="reg-phone">Phone Number</p>
+                                    <p class="reg-Date">Date</p>
+                                    <p class="reg-write">Write something </p>
+
+
+
+                                </div>
+
+                                <div class="col-8 login-password">
+
+                                    <p>
+                                    <div class="create-dropdown-menu">
+                                        <label for="Treeking"></label>
+                                        <select name="Treeking" id="course-drop">
+                                            <option value="Treeking">Trekking</option>
+                                            <option value="Engineering" class="engg">Camping</option>
+                                            <option value="Diploma" class="engg">Road Trip</option>
+
+
+                                        </select>
+                                    </div>
+                                    </p>
+                                    <p> <input type="email" placeholder="Enter your Username"
+                                            class="event-create-User-namebox">
+                                    </p>
+
+                                    <p> <input type="text" placeholder="Enter your Address"
+                                            class="event-create-User-namebox">
+                                    </p>
+                                    <p> <input type="tel" placeholder="Enter your Phone Number"
+                                            class="event-create-User-namebox"></p>
+                                    <p class="date-eventform"> <input type="date"> </p>
+                                    <p><textarea name="" id="textareacol" class="event-create-User-namebox" cols="30"
+                                            rows="6" style="border-color: #212529 ;"></textarea>
+                                    </p>
+
+                                    <button type="button" class="btn btn-primary event-formbtnn">Submit</button>
+
+
+                                </div>
+
+                                <!-- box content ends -->
+                            </div>
+
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>  -->
+                    </div>
+                </div>
+            </div>
+
+
+            <hr class="hr">
+
+        </div>
+
+        <div class="events-container">
+            <div class="row">
+                <div class="col-md-2 d-none d-md-block d-lg-block d-xl-block events-categorydiv">
+                    <div class="events-category">
+                        <p class="category1">Category</p>
+                        <p class="category2">All</p>
+                        <p class="category3">Trekking</p>
+                        <p class="category4">Camping</p>
+                        <p class="category5">Road Trip</p>
+                    </div>
+                </div>
+                <div class="col-md-10 events-list">
+                    <div class="row">
+                        <!-- card1 -->
+                        <div class="col-md-3 col-12">
+                            <!-- important -->
+                            <div class="card">
+
+
+                                <img src="media/images/Sinhagad-Fort.jpg" class="card-img-top"
+                                    alt="Sinhagad fort image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Sinhgad Fort Trek</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot"> | </P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">Join us for one of the simplest and safest climbing challenges,
+                                        and
+                                        time
+                                        yourself on one of the best and most popular fort in and around Pune.</p>
+
+                                    <a href="" data-target="#exampleModal1" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the
+                                                        Sinhgad Fort Trek</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/ksp_2165.webp" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Sinhagad Fort in Pune is an ancient fortress popular among
+                                                            trekkers,
+                                                            photography enthusiasts, and history lovers.
+
+                                                            Sinhagad means Lion’s Fort, and it is on a hill among the
+                                                            Sahyadri
+                                                            Mountains. Parts of this magnificent fort are in ruins, but
+                                                            the fort
+                                                            still attracts many adventure enthusiasts. It’s known for
+                                                            its
+                                                            historical importance and architectural brilliance as well.
+                                                            The walls of the forts and bastions were constructed only at
+                                                            key
+                                                            places. <p class="d-none d-md-block d-lg-block d-xl-block">
+                                                                There are two gates to enter the fort named Kalyan
+                                                                Darwaja
+                                                                and Pune Darwaza. The Kalyan Darwaja is towards the
+                                                                southeast while
+                                                                the Pune Darwaza is towards north east.[2] This fort is
+                                                                also
+                                                                called
+                                                                as center fort of Maratha empire as it is surrounded by
+                                                                many
+                                                                forts
+                                                                beside. During the clear climate you can see Rajgad,
+                                                                Purandar and
+                                                                Torna forts from the Sinhagad killa.</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card2 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card">
+
+                                <img src="media/images/Pebvikatgad.webp" class="card-img-top"
+                                    alt="Pebvikatgad fort image">
+                                <div class="card-body">
+                                    <h4 class="card-title">Peb Fort Trek</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>4 Days</div><br>
+                                        <P class="dot">|</P><br>
+                                        <div>Moderate</div>
+
+                                        <div></div>
+                                    </div>
+                                    <p class="card-text">With five different trails of varying difficulty and length,
+                                        Peb
+                                        fort is the ideal trek for anyone looking for a good excursion close to
+                                        Matheran.
+                                    </p>
+
+                                    <a href="" data-target="#exampleModal11" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal11" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the Peb
+                                                        Fort
+                                                        Trek</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/DSC8716.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Vikatgad is a favourite destination for the one day
+                                                            trekkers. The trek
+                                                            path to Vikatgad is along deep ravines and cliffs. Its
+                                                            closeness to
+                                                            Matheran and Neral is attracting a large number of trekkers
+                                                            on weekends.
+                                                            The Forest Department and local villagers are doing
+                                                            plantation and some
+                                                            restoration works on the fort.
+                                                            There are two gates on the entrance path of the fort,
+                                                            however; only
+                                                            ruins of the gates can be seen.
+                                                            There are two gates on the entrance path of the fort,
+                                                            however, only ruins of the gates can be seen. <p
+                                                                class="d-none d-md-block d-lg-block d-xl-block">
+                                                                There are
+                                                                water cistern and ruins of the buildings on the fort.
+                                                                The
+                                                                top of the fort is very narrow and a recently built
+                                                                temple
+                                                                with Lord Datta's paduka idol at the center is
+                                                                constructed.
+                                                                There is a lone residential hut or Datta temple on the
+                                                                southern side of the fort. There is a lone bastion on
+                                                                the
+                                                                southern ridge of the fort. The water is available in a
+                                                                small cistern round the year for drinking purpose
+                                                                located on
+                                                                the eastern ridge. There is an idol of Hanuman on the
+                                                                fort.
+                                                                The ground on the fort is very irregular and hilly.</p>
+
+                                                        </div>
+
+
+
+
+                                                    </div>
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card3 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card">
+                                <img src="media/images/dev ghat2.jpeg" class="card-img-top" alt="Dive ghat Pune">
+                                <div class="card-body">
+                                    <h4 class="card-title">Dive Ghat Trek</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">|</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">Hilly driving & biking route with views of lakeside temples & a
+                                        vast statue of Hindu deity Vitthal.</p>
+
+                                    <a href="" data-target="#exampleModal12" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal12" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the Dive
+                                                        Ghat
+                                                        Trek</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/devghat1.jpeg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Diveghat is a ghat in the Sahyadri mountain range on the
+                                                            Pune -
+                                                            Saswad
+                                                            road . Purandar taluka starts after climbing up this winding
+                                                            ghat.
+                                                            There is a lake built by Ahilyabai Holkar at the foot of
+                                                            Diveghat.
+                                                            According to legend this lake is called Mastani Lake.
+                                                            Dive Ghat is on the way to Saswad from Hadapsar, its almost
+                                                            3/4 km
+                                                            ghat which need to cross, location is good and complete
+                                                            hadapsar and
+                                                            other area can be seen clearly <p
+                                                                class="d-none d-md-block d-lg-block d-xl-block">, in
+                                                                monsoon this ghat looks
+                                                                more cool
+                                                                due to greenery, this place has very importance during
+                                                                “Vari” almost
+                                                                6/7 lac people cross this ghat by walking.
+                                                                Nearly Mastani lake is located, this is from Peshwa
+                                                                story
+                                                                “Bajirao –
+                                                                Mastani” it has very deep background, from ghat this
+                                                                lake is
+                                                                clearly
+                                                                visible. </p>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card4 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card">
+                                <img src="media/images/panshet.webp" class="card-img-top" alt="panshet camping">
+                                <div class="card-body">
+                                    <h4 class="card-title">Panshet Camping</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">|</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">This camping is situated at Panshet dam's backwater. It's just
+                                        40kms from Pune. It gives you a beautiful view of the backwater and valley.</p>
+
+                                    <a href="" data-target="#exampleModal13" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal13" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the
+                                                        Panshet
+                                                        Camping</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/panshet2.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Awesome place to stay for family and couples.
+                                                            Good quality and quantity of veg non veg food. Private
+                                                            bonfire for
+                                                            groups.
+                                                            Camping tents and cottages at best price. Budget friendly
+                                                            place with
+                                                            games and activities.
+
+                                                            Playground: Ground with lawn to play badminton, box cricket
+                                                            etc.
+                                                            <p class="d-none d-md-block d-lg-block d-xl-block">
+                                                                Panshet Dam, also called Tanajisagar Dam, is a dam on
+                                                                the
+                                                                Ambi river, a tributary of the Mutha River, about 50 km
+                                                                (31
+                                                                mi) southwest of the city of Pune in western India.The
+                                                                dam
+                                                                was constructed in late 1950s for irrigation and, along
+                                                                with
+                                                                three other dams nearby, Varasgaon, Temghar and
+                                                                Khadakwasla,
+                                                                it supplies drinking water to Pune.</p>
+
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card5 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card">
+                                <img src="media/images/pawan1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pawna Lake Camping</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">.</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text"> is an ideal destination for a relaxing weekend. It is near the
+                                        pawna lake, beneath open sky, under the bed of stars, discover & unwind
+                                        yourself.</p>
+
+                                    <a href="" data-target="#exampleModal14" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal14" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the Pawna
+                                                        Lake
+                                                        Camping</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/pawan2.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            With visitors and tourists flocking to Lonavala for morning
+                                                            treks
+                                                            and
+                                                            campsites, Pawana Lake is somewhat aloof, about 20
+                                                            kilometres from
+                                                            the
+                                                            Lonavala Railway Station. The sheer size of the lake along
+                                                            with the
+                                                            surroundings make for an awesome sight as it imposes itself
+                                                            like a
+                                                            canvas painting in your eyes. <p
+                                                                class="d-none d-md-block d-lg-block d-xl-block"> A
+                                                                camper's paradise is what it
+                                                                is,
+                                                                surrounded by high towering hills and blessed with an
+                                                                all
+                                                                year round
+                                                                pleasant climate rendering it a lovely getaway location.
+
+                                                                Playground: Ground with lawn to play badminton, box
+                                                                cricket
+                                                                etc.</p>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CARD6 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card ">
+                                <img src="media/images/Mahabaleshwar_Road.jpg" class="card-img-top"
+                                    alt="Panchgani Road Trip">
+                                <div class="card-body">
+                                    <h4 class="card-title">Panchgani Road Trip</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">.</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">
+                                        Panchgani allows paragliding activities, attracting adventure enthusiasts.
+                                        Sydney Point, Table Land and Kate's Point are some nearby places to be
+                                        visited.</p>
+
+                                    <a href="" data-target="#exampleModal15" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal15" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about The
+                                                        Panchgani
+                                                        Road Trip</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/86160.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Panchgani means the 5 plateaus in the native language of the
+                                                            state
+                                                            of Maharashtra. It forms part of the famed Sahyadri Range of
+                                                            Mountains
+                                                            in the Western Ghats. The backdrop of hills on one side and
+                                                            the coastal
+                                                            plains on the other side make this spot a spectacular one to
+                                                            plan a
+                                                            visit. <p class="d-none d-md-block d-lg-block d-xl-block">
+                                                                Being a major hill resort in the Western Ghats, the
+                                                                weather
+                                                                here is
+                                                                pretty balanced with minor variations between the
+                                                                seasons.</p>
+
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card7 -->
+                        <div class="col-md-3 col-12">
+                            <div class="card ">
+                                <img src="media/images/13-scaled.webp" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bhimashankar Trip</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">.</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">With rolling hills, gurgling rivers, and holy sites, the quiet
+                                        town
+                                        of Bhimashankar is a delight for the mind, body, and soul.</p>
+
+                                    <a href="" data-target="#exampleModal16" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal16" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">More about the
+                                                        Bhimashankar Road Trip</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/Bhimshankar-Temple.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Bhimashankar houses one of the 12 Jyotirlingas of Shiva,
+                                                            attracting
+                                                            hundreds of pilgrims daily. And for the naturalists, the
+                                                            landscape
+                                                            of
+                                                            Bhimashanker is a treasure. You can make your Bhimashankar
+                                                            experience
+                                                            more interesting when you drive from Pune in a Savaari cab.
+                                                            <p class="d-none d-md-block d-lg-block d-xl-block"> With our
+                                                                customizable trip plans and itineraries, you can do more
+                                                                than just a
+                                                                regular road trip, and enjoy a comfortable ride, while
+                                                                making your
+                                                                journey interesting at the same time.</p>
+
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <div class="card">
+
+                                <img src="media/images/Fort-Trekking-in-Pune.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h4 class="card-title">Pune Trekking</h4>
+                                    <hr>
+                                    <div class="days">
+                                        <div>2 Days</div><br>
+                                        <P class="dot">.</P><br>
+                                        <div>Moderate</div>
+                                    </div>
+                                    <p class="card-text">Join us for one of the simplest and safest climbing challenges,
+                                        and
+                                        time
+                                        yourself on one of the best and most popular fort in and around Pune.</p>
+
+                                    <a href="" data-target="#exampleModal17" data-toggle="modal"><button type="button"
+                                            class="btnaddevent btn-dark">View Details</button></a>
+                                    <!-- modal start -->
+                                    <div class="modal fade" id="exampleModal17" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content-new">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="exampleModalLabel">dfgfeAbout Us</h4>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-12">
+                                                            <img src="media/images/86160.jpg" alt=""
+                                                                class="trekmodalimage1" width="100%" height="20px">
+                                                        </div>
+                                                        <div class="col-md-6 col-12 popup-event-text">
+                                                            Panchgani means the 5 plateaus in the native language of the
+                                                            state
+                                                            of Maharashtra. It forms part of the famed Sahyadri Range of
+                                                            Mountains
+                                                            in the Western Ghats. The backdrop of hills on one side and
+                                                            the coastal
+                                                            plains on the other side make this spot a spectacular one to
+                                                            plan a
+                                                            visit.
+                                                            <p class="d-none d-md-block d-lg-block d-xl-block">Being a
+                                                                major hill resort in the Western Ghats, the weather
+                                                                here is
+                                                                pretty balanced with minor variations between the
+                                                                seasons.</p>
+
+                                                        </div>
+                                                    </div>
+
+                                                    <br><br>
+                                                    <h6 class="d-none d-md-block d-lg-block d-xl-block"> You can
+                                                        directly contact to the People who enjoyed our service
+                                                        and
+                                                        shared their experience with us.</h6>
+                                                    <div class="Visitors-table d-none d-md-block d-lg-block d-xl-block">
+                                                        <table border="1" style="width: 400px; height: 10px; ">
+                                                            <tr>
+                                                                <td style="color: blue;">Name</td>
+                                                                <td style="color: blue;">Contact no.</td>
+                                                            <tr>
+                                                                <td>Satender Kumar</td>
+                                                                <td>+91-8888950537</td>
+
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Pravin Mohite</td>
+                                                                <td>+91-9175605265</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amit Anand</td>
+                                                                <td>+91-8888597541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Parvesh Kumar</td>
+                                                                <td>+91-9348597569</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Firoj Alam</td>
+                                                                <td>+91-8858460748</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Vijay Kumar</td>
+                                                                <td>+91-8887421541</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Amar Jagdale</td>
+                                                                <td>+91-9845597685</td>
+                                                            </tr>
+                                                            </tr>
+                                                        </table>
+                                                    </div>
+                                                    <div class="Modal-readmore">
+                                                        <a href="" style="left: 580px;"> <u>Read more...</u> </a>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- modal ends -->
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer" style="margin-top: 100%">
+           <div class=" mail">Need help? call +91-88889 50537 || satenderkumar898@gmail.com</i>
+    </div>
+
+    <!-- <div> &copy; 2023 Treeking India <cite title="Source Title"></cite></div> -->
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
