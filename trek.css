@@ -882,15 +882,16 @@ border-top-right-radius: 20px;
     }
 
     .create-event-modal .modal-content {
-        /* margin-top: 20% !important; */
-        width: 100%;
+      /* margin-top: 20% !important; */
+        width: 94%;
         height: auto;
         padding: 10px 10px 10px 10px;
         /* justify-content: center; */
         /* margin: 0px -62px; */
         overflow: hidden;
-        position: relative;
-        top: -73px;
+        position: fixed;
+        /* top: 0px; */
+        margin-left: 3px;
     }
 
     .modal-contenteventform {
